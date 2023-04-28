@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 const { ObjectId } = mongoose.Schema;
 
-// Membuat model kategori
+// Membuat model Item
 const itemSchema = new mongoose.Schema({
   title: {
     type: String,

@@ -6,5 +6,6 @@ router.get("/category", adminController.viewCategory);
 router.get("/bank", adminController.viewBank);
 router.get("/item", adminController.viewItem);
 router.get("/booking", adminController.viewBooking);
+router.get("/credits", adminController.viewCredits);
 
 module.exports = router;
